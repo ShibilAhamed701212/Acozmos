@@ -1,0 +1,143 @@
+html,
+body {
+  touch-action: auto; /* allow touch interactions */
+  overscroll-behavior: contain; /* optional: prevent scroll chaining */
+}
+
+body {
+  box-sizing: border-box;
+  background-color: black;
+  color: aliceblue;
+  margin: 0;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------*/
+/* --------------------------------------HEADER BAR------------------------------------- */
+/*---------------------------------------------------------------------------------------*/
+
+.profile-nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 45px;
+  padding-top: 39px;
+  background-color: rgb(32, 31, 31);
+  height: 80px;
+}
+
+.header-name {
+  padding-left: 13px;
+}
+
+.log-icon {
+  padding-right: 13px;
+  color: rgb(66, 161, 245);
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+
+/*---------------------------------------------------------------------------------------*/
+/* --------------------------------------HEADER BAR------------------------------------- */
+/*---------------------------------------------------------------------------------------*/
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 18px;
+}
+
+.profile-main {
+  padding-top: 40px;
+  font-size: 74px;
+}
+
+.profile-details ul {
+  border: 1px solid rgb(197, 192, 192);
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  background-color: rgb(32, 31, 31);
+  width: 500px;
+  border-radius: 40px;
+  height: 60vh;
+  list-style: none;
+  justify-content: space-evenly;
+  padding-top: 14px;
+  padding-left: 0;
+}
+
+ul li {
+  display: flex;
+  gap: 40px;
+  border-bottom: 1px solid;
+  height: 10%;
+  padding-bottom: 30px;
+  padding-left: 40px;
+}
+
+.profile-details li:last-child {
+  border-bottom: none;
+}
+
+li .prfl-icon {
+  font-size: 57px;
+  border: 1px solid rgb(176, 170, 170);
+  border-radius: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13%;
+  height: 100%;
+  background-color: rgb(28, 28, 86);
+  color: rgb(66, 161, 245);
+}
+
+.profile-details li {
+  display: flex;
+  align-items: center;
+}
+
+.prfl-name {
+  font-size: 25px;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
+
+/* --------------------------------- */
+/*         FOOTER NAVIGATION         */
+/* --------------------------------- */
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.ftr {
+  margin: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #f3f3f3;
+  position: fixed;
+  bottom: 0;
+  width: 80%;
+  border-radius: 35px;
+  height: 11%;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent);
+  font-size: 25px;
+  z-index: 1;
+  /* display: none; */
+  max-width: 1100px;
+}
+
+.ftr i {
+  color: #eaeaea;
+}
+
+/*---------------------------------------------------------------------------------------*/
+/*---------------------------------------------------------------------------------------*/
